@@ -19,7 +19,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     background-color: #37505C;
-    z-index: 999;
+    z-index: 700;
 }
 td {
 	border:  2px solid #333;
