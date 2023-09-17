@@ -3,14 +3,16 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Tic Tac Toe</title>
-  
+  <title>Tic Tac Toe AI</title>
   <link rel="stylesheet" href="style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-
+	<div class="container">
+		<h1 id="PlayerText"> Tic Tac Toe </h1>
 	<table>
 		<tr>
 			<td class="cell" id="0"></td>
@@ -33,6 +35,6 @@
 		<button onClick="startGame()">Replay</button>
 	</div>
 
-  <script src="script.js"></script>
+  <script src="game_logic.js"></script>
 </body>
 </html>
